@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gameshop.ge</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mySlides {display:none;}
+        </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png">
+        <br>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="Catalog.html">games</a>
+            <a href="#contact">contact us</a>
+       </nav>
+    </header>
+    <main>
+<div class="slider">
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/download (1).jpeg" style="width:100%">
+        <img class="mySlides" src="images/download (2).jpeg" style="width:100%">
+        <img class="mySlides" src="images/download (3).jpeg" style="width:1500px">
+        <img class="mySlides" src="images/download.jpeg" style="width:1500px">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+</div>
+
+    </main>
+    <div class="fixed">
+        <p><b>message us or follow us</b></p>
+        <a class="social"><img src="https://i.ibb.co/8YGY0jT/Facebook-logo.png" alt="Facebook-logo" border="0"width="120px" height="75px"></a>
+        <a class="social"><img src="https://i.ibb.co/RTcsD0P/Facebook-Messenger-Logo-2020-present.jpg" alt="Facebook-Messenger-Logo-2020-present" border="0" width="120px" height="75px"></a>
+       
+        </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+          <h2 style="text-align: center;"> Our principles </h2>
+          <section class="principles">
+              <article class="principle">
+                 <img src="https://i.ibb.co/nLc11bf/download-1.png" alt="download-1" border="0" width="90px"></a>
+                  <p>low prices</p>
+              </article>
+              <article class="principle">
+                 <img src="https://i.ibb.co/Z6gZ83G/download.png" alt="download" border="0"width=90px></a>
+                  <p>delivery to any point of the city</p>
+              </article>
+              <article class="principle">
+                 <img src="https://i.ibb.co/MpRg7pP/download.jpg" alt="download" border="0"width=90px></a>
+                  <p>free consultation</p>
+              </article>
+          </section>
+          <article class="slogan">
+              <div class="slogan_text">
+                
+          
+          </article>
+          <h3 style="text-align: center; color: blue;">You will love our store!</h3>
+              
+      <footer id="contact">
+        <h3>contact us every time every where</h3>
+        <p>gmail:gameStore.ge@gmail.com</p>
+        <p>facebook:gamestore.ge</p>
+        <p>viber/phone/whatsaap:+995 555 55 55 44</p>
+
+      </footer>
+</body>
+</html>

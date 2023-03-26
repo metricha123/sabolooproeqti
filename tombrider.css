@@ -1,0 +1,17 @@
+header{
+    color:red;
+}
+h2{
+    margin-left: 400px;
+}
+
+
+
+footer{
+    margin-top: 70px;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}

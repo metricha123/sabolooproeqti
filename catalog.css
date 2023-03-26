@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: auto;
+   
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: red;
+    padding: 30px;
+    justify-content: center;
+    border-top: 5px solid white;
+}
+nav a{
+    margin: 2px  10px 2px  10px;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    
+}
+nav a:hover{
+    background-color: cyan;
+}
+div{
+    border-top:white 5px solid;
+    
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
+.product {
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+    border: 10px double rgb(28, 74, 202);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:white;
+   justify-content: center;
+     margin: 50px;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+}
+.principles{
+    display: flex;
+    border-top: 5px solid navy;
+    border-bottom: 5px solid navy;
+    justify-content: space-between; 
+    
+    margin: 0 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.principle {
+    width: 120px;
+}
+
+main{ 
+  
+    border-top:10px white solid;
+    background-color: black;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
